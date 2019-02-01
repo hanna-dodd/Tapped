@@ -2,19 +2,43 @@
 //  ViewController.swift
 //  Tapped
 //
-//  Created by Hanna Dodd on 2019-02-01.
-//  Copyright © 2019 Hanna Dodd. All rights reserved.
+//  Created by Hanna Dodd on 2017-05-30.
+//  Copyright © 2017 Hanna Dodd. All rights reserved.
 //
+//  Tapped
+//      Tap the red tile as many times as you can in
+//      the alloted time. If you tap the blue tile
+//      you lose.
+//
+
 
 import UIKit
 
-class ViewController: UIViewController {
+var highScoresEasy:[Int] = []                           //global array, used for storing scores
 
+class ViewController: UIViewController {
+    
+    @IBOutlet var titleLabel: UILabel!
+    
+    @IBOutlet var startButton: UIButton!
+    
+    @IBOutlet var highscoreButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        titleLabel.text = "T A P P E D"                 //fancy title name
+        print(highScoresEasy)
+        
+        startButton.layer.cornerRadius = 6              //rounds the corners of start and highscore buttons
+        highscoreButton.layer.cornerRadius = 6
+        
     }
-
-
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
 }
-
