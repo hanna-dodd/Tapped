@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2B1F04892204EC9F00548982 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F04882204EC9F00548982 /* SecondView.swift */; };
-		2B1F048B2204EEA000548982 /* HighScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F048A2204EEA000548982 /* HighScoreBoard.swift */; };
 		2B91E2332204D83100B32B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91E2322204D83100B32B71 /* AppDelegate.swift */; };
 		2B91E2352204D83100B32B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91E2342204D83100B32B71 /* ViewController.swift */; };
 		2B91E2382204D83100B32B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B91E2362204D83100B32B71 /* Main.storyboard */; };
@@ -18,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		2B1F04882204EC9F00548982 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		2B1F048A2204EEA000548982 /* HighScoreBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScoreBoard.swift; sourceTree = "<group>"; };
 		2B91E22F2204D83100B32B71 /* Tapped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapped.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B91E2322204D83100B32B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B91E2342204D83100B32B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				2B91E2322204D83100B32B71 /* AppDelegate.swift */,
 				2B91E2342204D83100B32B71 /* ViewController.swift */,
 				2B91E2362204D83100B32B71 /* Main.storyboard */,
-				2B1F048A2204EEA000548982 /* HighScoreBoard.swift */,
 				2B1F04882204EC9F00548982 /* SecondView.swift */,
 				2B91E2392204D83300B32B71 /* Assets.xcassets */,
 				2B91E23B2204D83300B32B71 /* LaunchScreen.storyboard */,
@@ -144,7 +141,6 @@
 				2B1F04892204EC9F00548982 /* SecondView.swift in Sources */,
 				2B91E2352204D83100B32B71 /* ViewController.swift in Sources */,
 				2B91E2332204D83100B32B71 /* AppDelegate.swift in Sources */,
-				2B1F048B2204EEA000548982 /* HighScoreBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -74,13 +74,6 @@ class SecondView: UIViewController {
         scoreLabel.text = "FINAL SCORE: \(score)"               //final score is shown to the user, timer is hidden
         timerLabel.text = ""
         
-        if highScoresEasy.index(of: score) == nil {
-            
-            highScoresEasy.append(score)                        //only add the score to the array if it is not a duplicate
-            print(highScoresEasy)
-            
-        }
-        
     }
     
     //the game begins again

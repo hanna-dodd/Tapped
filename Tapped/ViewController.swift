@@ -22,16 +22,12 @@ class ViewController: UIViewController {
     
     @IBOutlet var startButton: UIButton!
     
-    @IBOutlet var highscoreButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         titleLabel.text = "T A P P E D"                 //fancy title name
-        print(highScoresEasy)
         
         startButton.layer.cornerRadius = 6              //rounds the corners of start and highscore buttons
-        highscoreButton.layer.cornerRadius = 6
         
     }
     
